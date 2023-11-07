@@ -1,0 +1,25 @@
+  .banner-img {
+    margin-top: 20px;
+    height:300px;
+  }  
+  .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+  }
+  .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .card img:hover {
+    transform: scale(0.9);
+  }
+  .filters h3 {
+    margin-top: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }

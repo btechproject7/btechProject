@@ -11,6 +11,7 @@ const userSchema = new mongoose.Schema(
     scholarid:{
         type: Number,
         required: true,
+        unique:true,
     },
     email: {
       type: String,
